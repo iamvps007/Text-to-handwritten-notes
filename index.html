@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Hand</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="javascript/app.js"></script>
+        <style>
+            img{
+                height: 38px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="w3-header w3-deep-orange w3-card-2">
+            <div class="w3-container">
+                <span class="w3-xxlarge">text to handwriting</span>
+            </div>
+        </div>
+        <div class="w3-row ">
+            <div class="w3-col l6 w3-container">
+                <p></p>
+                <div class="w3-card-2 w3-round-large w3-padding">
+                    <textarea style="height: 400px;" oninput="convert()" class="w3-input" placeholder="Write your text" id="data" name="data"></textarea>
+                    <p></p>
+                    <button class="w3-btn w3-round-large w3-deep-orange" onclick="convert()">Convert</button>
+                    <p></p>
+                </div>
+                <p></p>
+                <p class="w3-text-grey">Developed by<span class="w3-text-deep-orange">Vaibhav Pratap Singh</span><br><br><span class="w3-deep-orange w3-padding">Javascript</span> &nbsp; <span class="w3-padding w3-red">HTML</span> &nbsp; <span class="w3-padding w3-yellow">CSS</span></p>
+            </div>
+            <div class="w3-col l6 w3-container">
+                <p></p>
+                <div class="w3-card-2 w3-round-large w3-padding" style="background-image: url(image/background.png);height:700px; width: 100%;background-repeat:no-repeat;">
+                    <div id="output">
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>     
+           
+
+           
+         
+    </body>
+</html>
